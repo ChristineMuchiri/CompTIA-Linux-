@@ -1,0 +1,27 @@
+/home - user home directory
+/root -root users home directory
+
+/boot - boot loader, kernel files
+/etc - text config files
+/opt - add-on software packages
+/media - removable media mount location
+/mnt - temp mounted filesystem
+/tmp - temp files, usually deleted on reboot
+
+/var - files that read/write alot eg logs,emails
+/var/tmp - temp files NOT deleted on reboot
+
+/sbin - essenial system binaries
+/bin - essential binaries
+/lib - libraries for /bin and /sbin
+
+/usr - things not needed for single user mode
+/usr/bin - most command binaries
+/usr/lib - libraries for most commands
+/usr/local - stuff specific to this computer
+/usr/local/bin - binaries for this computer
+
+VIRTUAL FILESYSTEMS:
+/proc - process information, kernel info generated on the fly
+/sys - info about devices, drivers, kernel
+/dev - hardware represented as files, hard drives, com ports
