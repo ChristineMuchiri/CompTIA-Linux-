@@ -1,0 +1,23 @@
+sudo apt install build-essential
+
+// Downloading the pakage to be installed
+wget https://ftp.gnu.org/gnu/hello/hello-2.12.tar.gz
+
+
+// extracting the tar file
+tar -zxvf hello-2.12.tar.gz
+
+// source code package for compilation
+cd hello-2.12
+
+// executable script
+./configure
+
+// compiling the source code
+make
+
+// installing source code where it is appropriate
+sudo make install 
+which hello
+
+// hello now an executable 
