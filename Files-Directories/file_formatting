@@ -1,0 +1,10 @@
+// using printf
+printf "%s\n" Hello
+printf "%5d\n" 43
+printf "%010.2f\n" 43.7
+
+// using sed
+sed '2d' file.txt
+sed -n '2p' file.txt
+sed -e 's/#.*//' file.config
+sed -e '/^$/d' file.config
