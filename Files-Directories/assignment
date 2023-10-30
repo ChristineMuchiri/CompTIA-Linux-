@@ -1,0 +1,18 @@
+#!/bin/bash
+
+NET=$(grep -i "portugal" $1 | awk -F, '{print $5}')
+
+FIRST=$(echo $NET | awk -F. '{print $1}')
+SECOND=$(echo $NET | awk -F. '{print $2}')
+
+for x in {0..255}
+do
+	for y in {0.255}
+	do
+		ping -c1 -w1 $FIRST.$SECOND.$x.$y > /dev/null 2>&1
+	if [ $? == 0 ]
+	then
+		echo $FIRST.$SECOND.$x.$y is alive!!
+	fi
+done
+done

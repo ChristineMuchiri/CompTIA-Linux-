@@ -1,0 +1,5 @@
+COUNTRY, CITY,TIMEZONE,VPN_SOFTWARE,IP_SUBNET,BRANCH_MASCOT
+USA,Memphis,EDT,OpenVPN,192.168.77.0/24,chicken
+South Africa,Welkom,SAST,Wireguard,192.168.8.0/24,narwhal
+Portugal,Amadora,WEST,Cisco,10.155.0.0/16,dolphin
+USA,Orlando,EDT,Wireguard,192.168.9.0/24,turtle
