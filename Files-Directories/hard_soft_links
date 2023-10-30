@@ -1,0 +1,12 @@
+// hard link
+ln file.txt file2.txt
+
+// soft link
+ln -s file.txt softfile.txt
+
+// checking inode number
+ls -i
+
+// metadata on file
+file file.txt
+stat file.txt
